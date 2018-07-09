@@ -10,6 +10,9 @@ extern class Window {
     public var x : Float;
     public var y : Float;
     public var z : Int;
+    public var width : Float;
+    public var height : Float;
+    public var space : js.jquery.JQuery;
 
     public function open():Promise;
     public function close():Promise;
