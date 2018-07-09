@@ -1,5 +1,7 @@
 package ventus;
 
+import js.jquery.Promise;
+
 @:native("Ventus.Window")
 extern class Window {
 
