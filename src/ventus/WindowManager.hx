@@ -32,4 +32,9 @@ extern class WindowManager {
         var _this = this;
         return untyped __js__("_this.createWindow.fromQuery")(query, options);
     }
+
+    inline public function createWindowFromElement(element:js.html.Element, options:CreateOptions) : Window {
+        var _this = this;
+        return untyped __js__("_this.createWindow.fromElement")(element, options);
+    }
 }
