@@ -5,7 +5,7 @@
   "description": "Haxe externs for Ventus - a window manager written in Javascript, HTML5 and CSS3.",
   "contributors": ["crazyjul,gogoprog"],
   "releasenote": "First release.",
-  "version": "3.2.0",
+  "version": "1.0.0",
   "url": "https://github.com/firefalcom/haxe-ventus",
   "classPath": "src",
   "dependencies": {
